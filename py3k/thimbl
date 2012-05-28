@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 #echo $PYTHONPATH
-python -m thimbl "$@"
+python3 -m thimbl "$@"

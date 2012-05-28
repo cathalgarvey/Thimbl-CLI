@@ -54,7 +54,7 @@ class MyApp(wx.App):
         self.textctl.write('\n')
 
     def OnSubmit(self, ev):
-        print "button 1 called"
+        print("button 1 called")
         text = self.textctl.GetLabel()
         self.label.SetLabel(text)
         
